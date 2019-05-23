@@ -1,4 +1,4 @@
-Dockerised 3proxy.  Easily socksify your Telegram.  3proxy is much more capable than that, refer to the [original documentation](https://3proxy.ru/documents) to know more about its features.
+Dockerised 3proxy.  3proxy is widely used to socksify Telegram or any other software supporting SOCKS5.  This tool is much more capable than included in the provided 3proxy.cfg, refer to its [documentation](https://3proxy.ru/documents) to learn about supported features.
 
 Build your own image using a command like following.  You can either edit the configuration file before building to include it into your image or store the configuration on your host system, more about this below.
 
