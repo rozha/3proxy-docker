@@ -1,6 +1,6 @@
 Run 3proxy in a [Docker](https://www.docker.com) container.  I'm personally using 3proxy to access Telegram via SOCKS5 but this piece of software is much more capable than that, please refer to its [documentation](https://3proxy.ru/documents) for more details.
 
-Build your own image using a command like I put here.  You can either edit the configuration file before building to include it into your image or store the configuration on your host system, more about this below.
+Build your own image using a command like following.  You can either edit the configuration file before building to include it into your image or store the configuration on your host system, more about this below.
 
 `docker build -t changeme/3proxy --no-cache=true .`
 
