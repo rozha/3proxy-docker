@@ -1,7 +1,7 @@
 FROM debian:9
-LABEL version="0.2"
+LABEL version="0.3"
 LABEL maintainer="rozha"
-ARG THREEPROXY_VERSION=0.8.12
+ARG THREEPROXY_VERSION=0.8.13
 
 ADD 3proxy.cfg /etc
 RUN apt-get update && apt-get -y dist-upgrade && \
