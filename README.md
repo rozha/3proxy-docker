@@ -4,7 +4,7 @@ Build your own image using a command like this:
 
 `docker build -t changeme/3proxy --no-cache=true .`
 
-You can either edit the configuration file before building to include it into your image or store the configuration on your host system, read more about storing configuration on the host system below.
+You can either edit the configuration file before building to include it into your image or store the configuration on your host system, read more about the latter option below.
 
 Then to run a container using the image you prepared at the previous step:
 
